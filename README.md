@@ -1,20 +1,20 @@
-#include<iostream>
-using namespace std;
-class Student{
-    public:
-  string name;
-  int rollnumber;
-  float cgpa;
+#include<iostream><br>
+using namespace std;<br>
+class Student{<br>
+    public:<br>
+  string name;<br>
+  int rollnumber;<br>
+  float cgpa;<br>
 
-  Student(){
+  Student(){<br>
 
-  }
-  Student(string s,int r, float c){
-    name=s;
-    rollnumber=r;
-    cgpa=c;
+  }<br>
+  Student(string s,int r, float c){<br>
+    name=s;<br>
+    rollnumber=r;<br>
+    cgpa=c;<br>
 
-  }
+  }<br>
   void print(Student s){
 cout<<s.name<<s.rollnumber<<s.cgpa;
   }
